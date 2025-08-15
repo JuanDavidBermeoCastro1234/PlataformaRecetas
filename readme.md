@@ -31,6 +31,8 @@ Este proyecto expone una API REST para gestionar **usuarios**, **recetas** e **i
    ```env
     PORT=3000  
     DB_URI=mongodb+srv://Juancho123:1096065716@juancho.asxw736.mongodb.net/?retryWrites=true&w=majority&appName=Juancho
+    
+    (posible ruta si la de mongo atlas falla reeemplzar por la local) DB_URI=mongodb://localhost:27017/
 
     DB_NAME= recetasdb
 
